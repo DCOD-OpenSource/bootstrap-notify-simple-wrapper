@@ -52,6 +52,15 @@ Settings
         mouse_over: "pause"
     }
 
+Usage
+-----
+Just:
+
+.. code-block:: javascript
+
+    $.showMessages([{message: "Something happened wrong :(", type: "danger"}]);
+
+
 Licensing
 ---------
 bootstrap-notify-simple-wrapper uses the MIT license. Please check the MIT-LICENSE file for more details.

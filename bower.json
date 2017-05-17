@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-notify-simple-wrapper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple wrapper around bootstrap-notify (https://github.com/mouse0270/bootstrap-notify/) to make your life easier.",
   "main": "bootstrap-notify-simple-wrapper.js",
   "moduleType": [
