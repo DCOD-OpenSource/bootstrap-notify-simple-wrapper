@@ -1,0 +1,22 @@
+# bootstrap-notify-simple-wrapper
+# .gitignore
+
+.*.swp
+*.log
+*~
+*.orig
+*.bak
+.DS_Store
+*.save
+.idea/*
+*sublime*
+*geany*
+*komodo*
+tmp/*
+logs/*
+parts
+.project
+.pydevproject
+.settings/*
+*.pid
+*.html
