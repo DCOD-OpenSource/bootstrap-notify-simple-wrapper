@@ -10,7 +10,7 @@ A bootstrap-notify-simple-wrapper documentation
 
 Installation
 ------------
-* Obtain your copy of source code from the git repository: ``git clone https://github.com/vint21h/redactor-plugins-lineheight.git``. Or download the latest release from ``https://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper/tags/``. Or install with `Bower <http://bower.io/>`_ ``bower install bootstrap-notify-simple-wrapper``.
+* Obtain your copy of source code from the git repository: ``git clone https://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper.git``. Or download the latest release from ``https://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper/tags/``. Or install with `Bower <http://bower.io/>`_ ``bower install bootstrap-notify-simple-wrapper``.
 * Add all requirements JS and CSS files to your page.
 
  - `jquery <https://jquery.com/>`_
@@ -58,7 +58,14 @@ Just:
 
 .. code-block:: javascript
 
-    $.showMessages([{message: "Something happened wrong :(", type: "danger"}]);
+    $.showMessage("Something happened wrong :(", "danger");
+
+
+or
+
+.. code-block:: javascript
+
+    $.showMessages([{message: "Haters gonna hate.", type: "danger"}, {message: "Spice must flow!", type: "info"}]);
 
 
 Licensing

@@ -3,9 +3,14 @@
   "version": "0.3.0",
   "description": "Simple wrapper around bootstrap-notify (https://github.com/mouse0270/bootstrap-notify/) to make your life easier.",
   "main": "bootstrap-notify-simple-wrapper.js",
-  "moduleType": [
-    "globals"
+  "files": [
+    "bootstrap-notify-simple-wrapper.js",
+    "bootstrap-notify-simple-wrapper.min.js"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper.git"
+  },
   "keywords": [
     "bootstrap",
     "notify",
@@ -13,9 +18,7 @@
     "plugin",
     "bootstrap-notify-simple-wrapper"
   ],
-  "authors": [
-    "Alexei Andrushievich <vint21h@vint21h.pp.ua>"
-  ],
+  "author": "Alexei Andrushievich <vint21h@vint21h.pp.ua>",
   "dependencies": {
     "jQuery": "3.2.1",
     "bootstrap": "3.3.7",
@@ -25,11 +28,7 @@
   },
   "license": "MIT",
   "homepage": "https://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper/",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "bugs": {
+    "url": "https://github.com/DCOD-OpenSource/bootstrap-notify-simple-wrapper/issues/"
+  }
 }
